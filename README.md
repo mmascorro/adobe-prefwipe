@@ -1,4 +1,4 @@
 adobe-prefwipe
 ==============
 
-PC & Mac scripts to delete Adobe preferences files.
+PC & Mac scripts to delete Adobe preference files.
