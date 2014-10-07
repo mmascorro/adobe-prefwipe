@@ -28,6 +28,7 @@ rd /s /q "%appData%\Adobe\Adobe Illustrator CS6 Settings"
 rd /s /q "%appData%\Adobe\Adobe Illustrator"
 rd /s /q "%appData%\Adobe\Adobe Illustrator 17 Settings"
 rd /s /q "%appData%\Adobe\Adobe Illustrator 18 Settings"
+rd /s /q "%appData%\Adobe\Adobe Illustrator Library 18 Settings"
 rd /s /q "%appData%\Adobe\Save For Web AI"
 
 
@@ -156,16 +157,19 @@ rd /s /q "%appData%\Adobe\Dreamweaver CS5.5"
 rd /s /q "%appData%\Adobe\Dreamweaver CS6"
 rd /s /q "%appData%\Adobe\Dreamweaver CC"
 rd /s /q "%appData%\Adobe\Dreamweaver CC 2014"
+rd /s /q "%appData%\Adobe\Dreamweaver CC 2014.1"
 rd /s /q "%appData%\Adobe\Common\11"
 rd /s /q "%appData%\Adobe\Common\11.5"
 rd /s /q "%appData%\Adobe\Common\12.0"
 rd /s /q "%appData%\Adobe\Common\13.0"
 rd /s /q "%appData%\Adobe\Common\14.0"
+rd /s /q "%appData%\Adobe\Common\15.0"
 reg delete "HKCU\Software\Adobe\Dreamweaver CS5" /f
 reg delete "HKCU\Software\Adobe\Dreamweaver CS5.5" /f
 reg delete "HKCU\Software\Adobe\Dreamweaver CS6" /f
 reg delete "HKCU\Software\Adobe\Dreamweaver CC" /f
 reg delete "HKCU\Software\Adobe\Dreamweaver CC 2014" /f
+reg delete "HKCU\Software\Adobe\Dreamweaver CC 2014.1" /f
 reg delete "HKCU\Software\Adobe\Common" /f
 
 :: edge animate

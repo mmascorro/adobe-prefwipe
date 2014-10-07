@@ -124,6 +124,7 @@ rm -rf "$homeLibPref/com.adobe.After Effects.11.0.2.plist"
 rm -rf "$homeLibPref/com.adobe.After Effects.12.0.plist"
 rm -rf "$homeLibPref/com.adobe.After Effects.12.2.plist"
 rm -rf "$homeLibPref/com.adobe.After Effects.13.0.plist"
+rm -rf "$homeLibPref/com.adobe.After Effects.13.1.plist"
 
 
 
@@ -161,6 +162,7 @@ rm -rf "$homeLibPref/com.Adobe.SpeedGrade.8.0.plist"
 #audition
 echo "AU"
 rm -rf "$homeLibPref/Adobe/Audition"
+rm -rf "$homeLibPref/com.Adobe.Audition.7.0.plist"
 
 
 
@@ -196,16 +198,19 @@ rm -rf "$homeLibAppSup/Adobe/Dreamweaver CS5.5"
 rm -rf "$homeLibAppSup/Adobe/Dreamweaver CS6"
 rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC"
 rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC 2014"
+rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC 2014.1"
 rm -rf "$homeLibAppSup/Adobe/Common/11"
 rm -rf "$homeLibAppSup/Adobe/Common/11.5"
 rm -rf "$homeLibAppSup/Adobe/Common/12.0"
 rm -rf "$homeLibAppSup/Adobe/Common/13.0"
 rm -rf "$homeLibAppSup/Adobe/Common/14.0"
+rm -rf "$homeLibAppSup/Adobe/Common/15.0"
 rm -rf "$homeLibPref/Adobe Dreamweaver CS5 Prefs"
 rm -rf "$homeLibPref/Adobe Dreamweaver CS5.5 Prefs"
 rm -rf "$homeLibPref/Adobe Dreamweaver CS6 Prefs"
 rm -rf "$homeLibPref/Adobe Dreamweaver CC Prefs"
 rm -rf "$homeLibPref/Adobe Dreamweaver CC 2014 Prefs"
+rm -rf "$homeLibPref/Adobe Dreamweaver CC 2014.1 Prefs"
 rm -rf "$homeLibPref/Adobe/Dreamweaver"
 rm -rf "$homeLibPref/com.adobe.dreamweaver-11.0.plist"
 rm -rf "$homeLibPref/com.adobe.dreamweaver-11.5.plist"
@@ -216,6 +221,7 @@ rm -rf "$homeLibPref/com.adobe.dreamweaver-13.0.plist"
 rm -rf "$homeLibPref/com.adobe.dreamweaver-13.1.plist"
 rm -rf "$homeLibPref/com.adobe.dreamweaver-13.2.plist"
 rm -rf "$homeLibPref/com.adobe.dreamweaver-14.0.plist"
+rm -rf "$homeLibPref/com.adobe.dreamweaver-15.0.plist"
 
 
 
@@ -225,6 +231,7 @@ rm -rf "$homeLibPref/Adobe/Edge Animate"
 rm -rf "$homeLibPref/com.adobe.Edge.application.plist"
 rm -rf "$homeLibPref/com.adobe.Adobe Edge Animate.application.plist"
 rm -rf "$homeLibPref/com.adobe.Adobe Edge Animate CC 2014.application.plist"
+rm -rf "$homeLibPref/com.adobe.Adobe Edge Animate CC 2014.1.application.plist"
 
 
 
