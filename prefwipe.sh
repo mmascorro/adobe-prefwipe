@@ -11,6 +11,7 @@ echo "===Design==="
 echo "PS"
 rm -rf "$homeLibAppSup/Adobe/Adobe Photoshop CC"
 rm -rf "$homeLibAppSup/Adobe/Adobe Photoshop CC 2014"
+rm -rf "$homeLibAppSup/Adobe/Adobe Photoshop CC 2015"
 rm -rf "$homeLibPref/Adobe/Photoshop"
 rm -rf "$homeLibPref/com.adobe.Photoshop.plist"
 rm -rf "$homeLibPref/Adobe Photoshop CS5 Settings"
@@ -18,6 +19,9 @@ rm -rf "$homeLibPref/Adobe Photoshop CS5.1 Settings"
 rm -rf "$homeLibPref/Adobe Photoshop CS6 Settings"
 rm -rf "$homeLibPref/Adobe Photoshop CC Settings"
 rm -rf "$homeLibPref/Adobe Photoshop CC 2014 Settings"
+rm -rf "$homeLibPref/Adobe Photoshop CC 2015 Settings"
+rm -rf "$homeLibPref/Adobe Photoshop CC 2014 Paths"
+rm -rf "$homeLibPref/Adobe Photoshop CC 2015 Paths"
 rm -rf "$homeLibPref/Adobe Save for Web 12.0 Prefs"
 rm -rf "$homeLibPref/Adobe Save for Web 13.0 Prefs"
 
@@ -30,13 +34,15 @@ rm -rf "$homeLibPref/Adobe Camera Raw 5.0 Prefs"
 rm -rf "$homeLibPref/Adobe Camera Raw 6.0 Prefs"
 rm -rf "$homeLibPref/Adobe Camera Raw 7.0 Prefs"
 rm -rf "$homeLibPref/Adobe Camera Raw 8.0 Prefs"
-
+rm -rf "$homeLibPref/Adobe Camera Raw 9.0 Prefs"
+rm -rf "$homeLibCaches/Adobe Camera Raw"
 
 
 #illustrator
 echo "AI"
 rm -rf "$homeLibAppSup/Adobe/Adobe Illustrator 17"
 rm -rf "$homeLibAppSup/Adobe/Adobe Illustrator 18"
+rm -rf "$homeLibAppSup/Adobe/Adobe Illustrator 19"
 rm -rf "$homeLibPref/Adobe/Adobe Illustrator"
 rm -rf "$homeLibPref/com.adobe.illustrator.plist"
 rm -rf "$homeLibPref/Adobe Illustrator CS5 Settings"
@@ -44,6 +50,7 @@ rm -rf "$homeLibPref/Adobe Illustrator CS5.1 Settings"
 rm -rf "$homeLibPref/Adobe Illustrator CS6 Settings"
 rm -rf "$homeLibPref/Adobe Illustrator 17 Settings"
 rm -rf "$homeLibPref/Adobe Illustrator 18 Settings"
+rm -rf "$homeLibPref/Adobe Illustrator 19 Settings"
 rm -rf "$homeLibPref/Adobe Save For Web AI 15.1 Prefs"
 rm -rf "$homeLibPref/Adobe Save For Web AI 16.0 Prefs"
 
@@ -109,6 +116,7 @@ rm -rf "$homeLibPref/com.Adobe.Premiere Pro.5.5.plist"
 rm -rf "$homeLibPref/com.Adobe.Premiere Pro.6.0.plist"
 rm -rf "$homeLibPref/com.Adobe.Premiere Pro.7.0.plist"
 rm -rf "$homeLibPref/com.Adobe.Premiere Pro.8.0.plist"
+rm -rf "$homeLibPref/com.Adobe.Premiere Pro.9.0.plist"
 
 
 
@@ -125,13 +133,18 @@ rm -rf "$homeLibPref/com.adobe.After Effects.12.0.plist"
 rm -rf "$homeLibPref/com.adobe.After Effects.12.2.plist"
 rm -rf "$homeLibPref/com.adobe.After Effects.13.0.plist"
 rm -rf "$homeLibPref/com.adobe.After Effects.13.1.plist"
+rm -rf "$homeLibPref/com.adobe.After Effects.13.1.1.plist"
+rm -rf "$homeLibPref/com.adobe.After Effects.13.2.plist"
+rm -rf "$homeLibPref/com.adobe.After Effects.13.5.plist"
 
 
 
 #media encoder
 echo "AME"
+rm -rf "$homeLibPref/com.Adobe.Adobe Media Encoder.6.0.plist"
 rm -rf "$homeLibPref/com.Adobe.Adobe Media Encoder.7.0.plist"
 rm -rf "$homeLibPref/com.Adobe.Adobe Media Encoder.8.0.plist"
+rm -rf "$homeLibPref/com.Adobe.Adobe Media Encoder.9.0.plist"
 rm -rf "$homeLibPref/Adobe/Adobe Media Encoder"
 
 
@@ -148,6 +161,7 @@ rm -rf "$homeLibAppSup/Adobe/Prelude"
 rm -rf "$homeLibPref/Adobe/Prelude"
 rm -rf "$homeLibPref/com.adobe.Prelude.plist"
 rm -rf "$homeLibPref/com.Adobe.Prelude.3.0.plist"
+rm -rf "$homeLibPref/com.Adobe.Prelude.4.0.plist"
 
 
 
@@ -156,6 +170,8 @@ echo "SG"
 rm -rf "$homeLibAppSup/Adobe/SpeedGrade"
 rm -rf "$homeLibPref/Adobe/SpeedGrade"
 rm -rf "$homeLibPref/com.Adobe.SpeedGrade.8.0.plist"
+rm -rf "$homeLibPref/com.Adobe.SpeedGrade.9.0.plist"
+rm -rf "$homeLibPref/adobe.SpeedGrade.plist"
 
 
 
@@ -163,6 +179,7 @@ rm -rf "$homeLibPref/com.Adobe.SpeedGrade.8.0.plist"
 echo "AU"
 rm -rf "$homeLibPref/Adobe/Audition"
 rm -rf "$homeLibPref/com.Adobe.Audition.7.0.plist"
+rm -rf "$homeLibPref/com.Adobe.Audition.8.0.plist"
 
 
 
@@ -176,6 +193,7 @@ rm -rf "$homeLibAppSup/Adobe/Flash CS5.5"
 rm -rf "$homeLibAppSup/Adobe/Flash CS6"
 rm -rf "$homeLibAppSup/Adobe/Flash CC"
 rm -rf "$homeLibAppSup/Adobe/Flash CC 2014"
+rm -rf "$homeLibAppSup/Adobe/Flash CC 2015"
 rm -rf "$homeLibPref/Flash CS5 Preferences"
 rm -rf "$homeLibPref/Flash CS5.5 Preferences"
 rm -rf "$homeLibPref/Flash CS6 Preferences"
@@ -188,6 +206,7 @@ rm -rf "$homeLibPref/com.adobe.flash-11.0.plist"
 rm -rf "$homeLibPref/com.adobe.flash-11.5.plist"
 rm -rf "$homeLibPref/com.adobe.Adobe Flash CC.application.plist"
 rm -rf "$homeLibPref/com.adobe.Adobe Flash CC 2014.application.plist"
+rm -rf "$homeLibPref/com.adobe.Adobe Flash CC 2015.application.plist"
 
 
 
@@ -199,18 +218,22 @@ rm -rf "$homeLibAppSup/Adobe/Dreamweaver CS6"
 rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC"
 rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC 2014"
 rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC 2014.1"
+rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC 2015"
+rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC 2015 Backups"
 rm -rf "$homeLibAppSup/Adobe/Common/11"
 rm -rf "$homeLibAppSup/Adobe/Common/11.5"
 rm -rf "$homeLibAppSup/Adobe/Common/12.0"
 rm -rf "$homeLibAppSup/Adobe/Common/13.0"
 rm -rf "$homeLibAppSup/Adobe/Common/14.0"
 rm -rf "$homeLibAppSup/Adobe/Common/15.0"
+rm -rf "$homeLibAppSup/Adobe/Common/16.0"
 rm -rf "$homeLibPref/Adobe Dreamweaver CS5 Prefs"
 rm -rf "$homeLibPref/Adobe Dreamweaver CS5.5 Prefs"
 rm -rf "$homeLibPref/Adobe Dreamweaver CS6 Prefs"
 rm -rf "$homeLibPref/Adobe Dreamweaver CC Prefs"
 rm -rf "$homeLibPref/Adobe Dreamweaver CC 2014 Prefs"
 rm -rf "$homeLibPref/Adobe Dreamweaver CC 2014.1 Prefs"
+rm -rf "$homeLibPref/Adobe Dreamweaver CC 2015 Prefs"
 rm -rf "$homeLibPref/Adobe/Dreamweaver"
 rm -rf "$homeLibPref/com.adobe.dreamweaver-11.0.plist"
 rm -rf "$homeLibPref/com.adobe.dreamweaver-11.5.plist"
@@ -222,6 +245,8 @@ rm -rf "$homeLibPref/com.adobe.dreamweaver-13.1.plist"
 rm -rf "$homeLibPref/com.adobe.dreamweaver-13.2.plist"
 rm -rf "$homeLibPref/com.adobe.dreamweaver-14.0.plist"
 rm -rf "$homeLibPref/com.adobe.dreamweaver-15.0.plist"
+rm -rf "$homeLibPref/com.adobe.dreamweaver-15.1.plist"
+rm -rf "$homeLibPref/com.adobe.dreamweaver-16.0.plist"
 
 
 
@@ -232,14 +257,7 @@ rm -rf "$homeLibPref/com.adobe.Edge.application.plist"
 rm -rf "$homeLibPref/com.adobe.Adobe Edge Animate.application.plist"
 rm -rf "$homeLibPref/com.adobe.Adobe Edge Animate CC 2014.application.plist"
 rm -rf "$homeLibPref/com.adobe.Adobe Edge Animate CC 2014.1.application.plist"
-
-
-
-#edge code
-echo "CO"
-rm -rf "$homeLibAppSup/Adobe/Edge Code CC"
-rm -rf "$homeLibPref/com.adobe.Edge.Code.application.plist"
-rm -rf "$homeLibPref/com.adobe.EdgeCode.plist"
+rm -rf "$homeLibPref/com.adobe.Adobe Edge Animate CC 2015.application.plist"
 
 
 
@@ -262,7 +280,9 @@ rm -rf "$homeLibPref/com.adobe.EdgeReflow.plist"
 echo "MU"
 rm -rf "$homeLibPref/Adobe/Adobe Muse CC"
 rm -rf "$homeLibPref/Adobe/Adobe Muse CC Library"
+rm -rf "$homeLibPref/Adobe/Adobe Muse CC Libraries"
 rm -rf "$homeLibPref/com.adobe.AdobeMuseCC.2014.0"
+rm -rf "$homeLibPref/com.adobe.AdobeMuseCC.2015.0"
 rm -rf "$homeLibPref/com.adobe.Muse.application.plist"
 rm -rf "$homeLibPref/AdobeMuse"
 rm -rf "$homeLibPref/AdobeMuse.plist"
@@ -283,19 +303,12 @@ echo "--PDF Presets"
 rm -rf "$homeLibAppSup/Adobe/Adobe PDF/Settings"
 
 
-
-#forms central
-echo "--Forms Central"
-rm -rf "$homeLibPref/com.adobe.formscentral.FormsCentralForAcrobat"
-rm -rf "$homeLibPref/com.adobe.formscentral.FormsCentralForAcrobat.plist"
-
-
-
 #lightroom
 echo "LR"
 rm -rf "$homeLibAppSup/Adobe/Lightroom"
 rm -rf "$homeLibPref/Adobe/Lightroom"
 rm -rf "$homeLibPref/com.adobe.Lightroom5.plist"
+rm -rf "$homeLibPref/com.adobe.Lightroom6.plist"
 rm -rf "$HOME/Pictures/Lightroom"
 
 
