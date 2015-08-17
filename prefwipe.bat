@@ -275,6 +275,8 @@ reg delete "HKCU\Software\Adobe\RoboHelp" /f
 echo PN
 rd /s /q "%localAppData%\Adobe\Adobe Presenter"
 rd /s /q "%localAppData%\Adobe\Presenter 9.0"
+rd /s /q "%localAppData%\Adobe\Presenter 10.0"
 rd /s /q "%localAppData%\Adobe\Presenter Video Creator 8.0"
 rd /s /q "%localAppData%\Adobe\Presenter Video Creator 9.0"
+rd /s /q "%localAppData%\Adobe\Presenter Video Express 10.0"
 reg delete "HKCU\Software\Adobe\Adobe Presenter" /f
