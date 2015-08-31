@@ -65,6 +65,7 @@ rd /s /q "%localAppData%\Adobe\Captivate 6.0"
 rd /s /q "%localAppData%\Adobe\Captivate 6.0 x64"
 rd /s /q "%localAppData%\Adobe\Captivate 7.0"
 rd /s /q "%localAppData%\Adobe\Captivate 8.0"
+rd /s /q "%localAppData%\Adobe\Captivate 9.0"
 rd /s /q "%USERPROFILE%\My Documents\Adobe Captivate Cached Projects"
 rd /s /q "%USERPROFILE%\Documents\Adobe Captivate Cached Projects"
 rd /s /q "%USERPROFILE%\Documents\My Adobe Captivate Projects"
@@ -84,6 +85,9 @@ rd /s /q "%appData%\AdobeCaptivateReviewer8"
 rd /s /q "%appData%\QuizResultsAnalyzer8"
 rd /s /q "%appData%\com.adobe.captivate8AppPackager"
 rd /s /q "%localAppData%\Adobe\Adobe Captivate App Packager"
+echo --Cap 9 AIR apps
+rd /s /q "%appData%\AdobeCaptivateReviewer9"
+rd /s /q "%appData%\QuizResultsAnalyzer9"
 
 
 
