@@ -102,6 +102,7 @@ rd /s /q "%appData%\Adobe\Premiere Pro"
 :: after effects
 echo AE
 rd /s /q "%appData%\Adobe\After Effects"
+rd /s /q "%localAppData%\Temp\Adobe\After Effects"
 
 
 

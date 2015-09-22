@@ -127,6 +127,7 @@ rm -rf "$homeLibPref/com.Adobe.Premiere Pro.9.0.plist"
 #after effects
 echo "AE"
 rm -rf "$homeLibPref/Adobe/After Effects"
+rm -rf "$homeLibCaches/Adobe/After Effects"
 rm -rf "$homeLibPref/com.adobe.AfterEffects.plist"
 rm -rf "$homeLibPref/com.adobe.After Effects.10.0.plist"
 rm -rf "$homeLibPref/com.adobe.After Effects.10.5.plist"
