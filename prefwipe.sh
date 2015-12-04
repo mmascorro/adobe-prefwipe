@@ -255,32 +255,6 @@ rm -rf "$homeLibPref/com.adobe.dreamweaver-16.0.plist"
 
 
 
-#edge animate
-echo "AN"
-rm -rf "$homeLibPref/Adobe/Edge Animate"
-rm -rf "$homeLibPref/com.adobe.Edge.application.plist"
-rm -rf "$homeLibPref/com.adobe.Adobe Edge Animate.application.plist"
-rm -rf "$homeLibPref/com.adobe.Adobe Edge Animate CC 2014.application.plist"
-rm -rf "$homeLibPref/com.adobe.Adobe Edge Animate CC 2014.1.application.plist"
-rm -rf "$homeLibPref/com.adobe.Adobe Edge Animate CC 2015.application.plist"
-
-
-
-#edge inspect
-echo "IN"
-rm -rf "$homeLibPref/Adobe/Edge Inspect"
-rm -rf "$homeLibPref/com.adobe.Edge.application.plist"
-
-
-
-#edge reflow
-echo "RF"
-rm -rf "$homeLibAppSup/Adobe/Reflow"
-rm -rf "$homeLibAppSup/EdgeReflow"
-rm -rf "$homeLibPref/com.adobe.EdgeReflow.plist"
-
-
-
 #muse
 echo "MU"
 rm -rf "$homeLibPref/Adobe/Adobe Muse CC"

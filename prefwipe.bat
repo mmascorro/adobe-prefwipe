@@ -188,24 +188,6 @@ reg delete "HKCU\Software\Adobe\Common" /f
 
 
 
-:: edge animate
-echo AN
-rd /s /q "%appData%\Adobe\Edge Animate"
-
-
-
-:: edge inspect
-echo IN
-rd /s /q "%appData%\Adobe\Edge Inspect"
-
-
-
-:: edge reflow
-echo RF
-rd /s /q "%appData%\Adobe\Reflow"
-
-
-
 :: muse
 echo MU
 rd /s /q "%appData%\com.adobe.AdobeMuseCC.2014.0"
