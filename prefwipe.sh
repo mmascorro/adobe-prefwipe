@@ -141,6 +141,8 @@ rm -rf "$homeLibPref/com.adobe.After Effects.13.1.plist"
 rm -rf "$homeLibPref/com.adobe.After Effects.13.1.1.plist"
 rm -rf "$homeLibPref/com.adobe.After Effects.13.2.plist"
 rm -rf "$homeLibPref/com.adobe.After Effects.13.5.plist"
+rm -rf "$homeLibPref/com.adobe.After Effects.13.5.1.plist"
+rm -rf "$homeLibPref/com.adobe.After Effects.13.6.plist"
 
 
 
