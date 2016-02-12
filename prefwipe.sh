@@ -191,6 +191,11 @@ rm -rf "$homeLibPref/com.Adobe.Audition.8.0.plist"
 
 
 echo "===Web==="
+#animate
+echo "AN"
+rm -rf "$homeLibAppSup/Adobe/Animate CC 2015"
+rm -rf "$homeLibPref/Adobe/Animate"
+rm -rf "$homeLibPref/com.adobe.Adobe Animate CC 2015.application.plist"
 
 #flash
 echo "FL"
