@@ -117,6 +117,12 @@ rd /s /q "%appData%\Adobe\Audition"
 
 echo ===Web===
 
+:: animate
+echo AN
+rd /s /q "%localAppData%\Adobe\Animate CC 2015"
+rd /s /q "%appData%\Adobe\Animate"
+reg delete "HKCU\Software\Adobe\Animate 15.1" /f
+
 :: flash
 echo FL
 del "C:\Windows\system32\Macromed\Flash\FlashAuthor.cfg"
