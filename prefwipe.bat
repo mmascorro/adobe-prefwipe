@@ -5,8 +5,6 @@ echo ===Design===
 :: photoshop
 echo PS
 rd /s /q "%appData%\Adobe\Photoshop"
-rd /s /q "%appData%\Adobe\Adobe Photoshop CS5"
-rd /s /q "%appData%\Adobe\Adobe Photoshop CS5.1"
 rd /s /q "%appData%\Adobe\Adobe Photoshop CS6"
 rd /s /q "%appData%\Adobe\Adobe Photoshop CC"
 rd /s /q "%appData%\Adobe\Adobe Photoshop CC 2014"
@@ -23,8 +21,6 @@ rd /s /q "%localAppData%\Adobe\CameraRaw"
 
 :: illustrator
 echo AI
-rd /s /q "%appData%\Adobe\Adobe Illustrator CS5 Settings"
-rd /s /q "%appData%\Adobe\Adobe Illustrator CS5.1 Settings"
 rd /s /q "%appData%\Adobe\Adobe Illustrator CS6 Settings"
 rd /s /q "%appData%\Adobe\Adobe Illustrator"
 rd /s /q "%appData%\Adobe\Adobe Illustrator 17 Settings"
@@ -45,11 +41,8 @@ rd /s /q "%localAppData%\Adobe\InDesign"
 :: bridge
 echo BR
 rd /s /q "%appData%\Adobe\Bridge"
-rd /s /q "%appData%\Adobe\Bridge CS5"
-rd /s /q "%appData%\Adobe\Bridge CS5.1"
 rd /s /q "%appData%\Adobe\Bridge CS6"
 rd /s /q "%appData%\Adobe\Bridge CC"
-reg delete "HKCU\Software\Adobe\Bridge CS5.1" /f
 reg delete "HKCU\Software\Adobe\Bridge CS6" /f
 reg delete "HKCU\Software\Adobe\Bridge CC" /f
 
@@ -60,26 +53,11 @@ echo ===E-Learning===
 :: captivate
 echo CP
 rd /s /q "%appData%\Adobe\Captivate"
-rd /s /q "%localAppData%\Adobe\Captivate 5"
-rd /s /q "%localAppData%\Adobe\Captivate 6.0"
-rd /s /q "%localAppData%\Adobe\Captivate 6.0 x64"
-rd /s /q "%localAppData%\Adobe\Captivate 7.0"
 rd /s /q "%localAppData%\Adobe\Captivate 8.0"
 rd /s /q "%localAppData%\Adobe\Captivate 9.0"
 rd /s /q "%USERPROFILE%\My Documents\Adobe Captivate Cached Projects"
 rd /s /q "%USERPROFILE%\Documents\Adobe Captivate Cached Projects"
 rd /s /q "%USERPROFILE%\Documents\My Adobe Captivate Projects"
-echo --Cap 5 AIR apps
-rd /s /q "%appData%\AdobeCaptivateReviewer2.E7BED6E5DDA59983786DD72EBFA46B1598278E07.1"
-rd /s /q "%appData%\QuizResultsAnalyzer.E7BED6E5DDA59983786DD72EBFA46B1598278E07.1"
-echo --Cap 6 AIR apps
-rd /s /q "%appData%\AdobeCaptivateReviewer6.0"
-rd /s /q "%appData%\QuizResultsAnalyzer.C0CA58D26EB27EF0DDD094CE3C4337F3360F5EE2.1"
-echo --Cap 7 AIR apps
-rd /s /q "%appData%\AdobeCaptivateReviewer7"
-rd /s /q "%appData%\QuizResultsAnalyzer"
-rd /s /q "%appData%\com.adobe.captivate7AppPackager"
-rd /s /q "%localAppData%\Adobe\Adobe Captivate App Packager"
 echo --Cap 8 AIR apps
 rd /s /q "%appData%\AdobeCaptivateReviewer8"
 rd /s /q "%appData%\QuizResultsAnalyzer8"
@@ -142,15 +120,11 @@ echo ===Web===
 :: flash
 echo FL
 del "C:\Windows\system32\Macromed\Flash\FlashAuthor.cfg"
-rd /s /q "%localAppData%\Adobe\Flash CS5"
-rd /s /q "%localAppData%\Adobe\Flash CS5.5"
 rd /s /q "%localAppData%\Adobe\Flash CS6"
 rd /s /q "%localAppData%\Adobe\Flash CC"
 rd /s /q "%localAppData%\Adobe\Flash CC 2014"
 rd /s /q "%localAppData%\Adobe\Flash CC 2015"
 rd /s /q "%appData%\Adobe\Flash"
-reg delete "HKCU\Software\Adobe\Flash 11" /f
-reg delete "HKCU\Software\Adobe\Flash 11.5" /f
 reg delete "HKCU\Software\Adobe\Flash 12" /f
 reg delete "HKCU\Software\Adobe\Flash 13.0" /f
 reg delete "HKCU\Software\Adobe\Flash 14.0" /f
@@ -161,8 +135,6 @@ reg delete "HKCU\Software\Adobe\Flash 15.0" /f
 :: dreamweaver
 echo DW
 rd /s /q "%appData%\Adobe\Dreamweaver"
-rd /s /q "%appData%\Adobe\Dreamweaver CS5"
-rd /s /q "%appData%\Adobe\Dreamweaver CS5.5"
 rd /s /q "%appData%\Adobe\Dreamweaver CS6"
 rd /s /q "%appData%\Adobe\Dreamweaver CC"
 rd /s /q "%appData%\Adobe\Dreamweaver CC 2014"
@@ -170,15 +142,11 @@ rd /s /q "%appData%\Adobe\Dreamweaver CC 2014.1"
 rd /s /q "%appData%\Adobe\Dreamweaver CC 2014.1 Backups"
 rd /s /q "%appData%\Adobe\Dreamweaver CC 2015"
 rd /s /q "%appData%\Adobe\Dreamweaver CC 2015 Backups"
-rd /s /q "%appData%\Adobe\Common\11"
-rd /s /q "%appData%\Adobe\Common\11.5"
 rd /s /q "%appData%\Adobe\Common\12.0"
 rd /s /q "%appData%\Adobe\Common\13.0"
 rd /s /q "%appData%\Adobe\Common\14.0"
 rd /s /q "%appData%\Adobe\Common\15.0"
 rd /s /q "%appData%\Adobe\Common\16.0"
-reg delete "HKCU\Software\Adobe\Dreamweaver CS5" /f
-reg delete "HKCU\Software\Adobe\Dreamweaver CS5.5" /f
 reg delete "HKCU\Software\Adobe\Dreamweaver CS6" /f
 reg delete "HKCU\Software\Adobe\Dreamweaver CC" /f
 reg delete "HKCU\Software\Adobe\Dreamweaver CC 2014" /f
