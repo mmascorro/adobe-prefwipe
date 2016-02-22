@@ -71,6 +71,10 @@ rd /s /q "%appData%\QuizResultsAnalyzer9"
 
 echo ===Video===
 
+:: various video
+echo Video
+rd /s /q "%USERPROFILE%\Documents\Adobe"
+
 :: premiere
 echo PR
 rd /s /q "%appData%\Adobe\Premiere Pro"

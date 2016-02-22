@@ -98,6 +98,10 @@ rm -rf "$homeLibPref/QuizResultsAnalyzer9"
 
 echo "===Video==="
 
+#various video
+echo "Video"
+rm -rf "$HOME/Documents/Adobe"
+
 #premiere
 echo "PR"
 rm -rf "$homeLibAppSup/Adobe/Premiere Pro"
