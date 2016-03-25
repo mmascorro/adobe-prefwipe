@@ -9,46 +9,28 @@ echo "===Design==="
 
 #photoshop
 echo "PS"
-rm -rf "$homeLibAppSup/Adobe/Adobe Photoshop CC"
-rm -rf "$homeLibAppSup/Adobe/Adobe Photoshop CC 2014"
-rm -rf "$homeLibAppSup/Adobe/Adobe Photoshop CC 2015"
+rm -rf "$homeLibAppSup/Adobe/Adobe Photoshop CC"*
 rm -rf "$homeLibPref/Adobe/Photoshop"
 rm -rf "$homeLibPref/com.adobe.Photoshop.plist"
-rm -rf "$homeLibPref/Adobe Photoshop CS6 Settings"
-rm -rf "$homeLibPref/Adobe Photoshop CC Settings"
-rm -rf "$homeLibPref/Adobe Photoshop CC 2014 Settings"
-rm -rf "$homeLibPref/Adobe Photoshop CC 2015 Settings"
-rm -rf "$homeLibPref/Adobe Photoshop CC 2014 Paths"
-rm -rf "$homeLibPref/Adobe Photoshop CC 2015 Paths"
-rm -rf "$homeLibPref/Adobe Save for Web 12.0 Prefs"
-rm -rf "$homeLibPref/Adobe Save for Web 13.0 Prefs"
-
+rm -rf "$homeLibPref/Adobe Photoshop "*" Settings"
+rm -rf "$homeLibPref/Adobe Photoshop "*" Paths"
+rm -rf "$homeLibPref/Adobe Save for Web "*" Prefs"
 
 
 #camera raw
 echo "--Camera Raw"
 rm -rf "$homeLibAppSup/Adobe/CameraRaw"
-rm -rf "$homeLibPref/Adobe Camera Raw 5.0 Prefs"
-rm -rf "$homeLibPref/Adobe Camera Raw 6.0 Prefs"
-rm -rf "$homeLibPref/Adobe Camera Raw 7.0 Prefs"
-rm -rf "$homeLibPref/Adobe Camera Raw 8.0 Prefs"
-rm -rf "$homeLibPref/Adobe Camera Raw 9.0 Prefs"
+rm -rf "$homeLibPref/Adobe Camera Raw "*" Prefs"
 rm -rf "$homeLibCaches/Adobe Camera Raw"
 
 
 #illustrator
 echo "AI"
-rm -rf "$homeLibAppSup/Adobe/Adobe Illustrator 17"
-rm -rf "$homeLibAppSup/Adobe/Adobe Illustrator 18"
-rm -rf "$homeLibAppSup/Adobe/Adobe Illustrator 19"
+rm -rf "$homeLibAppSup/Adobe/Adobe Illustrator "*
 rm -rf "$homeLibPref/Adobe/Adobe Illustrator"
 rm -rf "$homeLibPref/com.adobe.illustrator.plist"
-rm -rf "$homeLibPref/Adobe Illustrator CS6 Settings"
-rm -rf "$homeLibPref/Adobe Illustrator 17 Settings"
-rm -rf "$homeLibPref/Adobe Illustrator 18 Settings"
-rm -rf "$homeLibPref/Adobe Illustrator 19 Settings"
-rm -rf "$homeLibPref/Adobe Save For Web AI 15.1 Prefs"
-rm -rf "$homeLibPref/Adobe Save For Web AI 16.0 Prefs"
+rm -rf "$homeLibPref/Adobe Illustrator "*" Settings"
+rm -rf "$homeLibPref/Adobe Save For Web AI "*" Prefs"
 
 
 
@@ -67,13 +49,9 @@ rm -rf "$homeLibPref/StageManager.BD092818F67280F4B42B04877600987F0111B594.1"
 
 #bridge
 echo "BR"
-rm -rf "$homeLibAppSup/Adobe/Bridge CS6"
-rm -rf "$homeLibAppSup/Adobe/Bridge CC"
+rm -rf "$homeLibAppSup/Adobe/Bridge "*
 rm -rf "$homeLibPref/Adobe/Bridge"
-rm -rf "$homeLibPref/com.adobe.bridge4.plist"
-rm -rf "$homeLibPref/com.adobe.bridge4.1.plist"
-rm -rf "$homeLibPref/com.adobe.bridge5.plist"
-rm -rf "$homeLibPref/com.adobe.bridge6.plist"
+rm -rf "$homeLibPref/com.adobe.bridge"*.plist
 
 
 
@@ -83,8 +61,7 @@ echo "===E-Learning==="
 echo "CP"
 rm -rf "$HOME/Documents/Adobe Captivate Cached Projects"
 rm -rf "$HOME/Documents/My Adobe Captivate Projects"
-rm -rf "$homeLibPref/Adobe Captivate 8.0"
-rm -rf "$homeLibPref/Adobe Captivate 9.0"
+rm -rf "$homeLibPref/Adobe Captivate "*
 rm -rf "$homeLibPref/com.adobe.Captivate.plist"
 echo "--Cap 8 AIR apps"
 rm -rf "$homeLibPref/AdobeCaptivateReviewer8"
@@ -107,12 +84,7 @@ echo "PR"
 rm -rf "$homeLibAppSup/Adobe/Premiere Pro"
 rm -rf "$homeLibPref/Adobe/Premiere Pro"
 rm -rf "$homeLibPref/com.adobe.AdobePremierePro.plist"
-rm -rf "$homeLibPref/com.Adobe.Premiere Pro.5.0.plist"
-rm -rf "$homeLibPref/com.Adobe.Premiere Pro.5.5.plist"
-rm -rf "$homeLibPref/com.Adobe.Premiere Pro.6.0.plist"
-rm -rf "$homeLibPref/com.Adobe.Premiere Pro.7.0.plist"
-rm -rf "$homeLibPref/com.Adobe.Premiere Pro.8.0.plist"
-rm -rf "$homeLibPref/com.Adobe.Premiere Pro.9.0.plist"
+rm -rf "$homeLibPref/com.Adobe.Premiere Pro".*.plist
 
 
 
@@ -121,29 +93,14 @@ echo "AE"
 rm -rf "$homeLibPref/Adobe/After Effects"
 rm -rf "$homeLibCaches/Adobe/After Effects"
 rm -rf "$homeLibPref/com.adobe.AfterEffects.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.10.0.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.10.5.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.11.0.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.11.0.1.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.11.0.2.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.12.0.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.12.2.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.13.0.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.13.1.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.13.1.1.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.13.2.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.13.5.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.13.5.1.plist"
-rm -rf "$homeLibPref/com.adobe.After Effects.13.6.plist"
+rm -f "$homeLibPref/com.Adobe.After Effects".*.plist
+
 
 
 
 #media encoder
 echo "AME"
-rm -rf "$homeLibPref/com.Adobe.Adobe Media Encoder.6.0.plist"
-rm -rf "$homeLibPref/com.Adobe.Adobe Media Encoder.7.0.plist"
-rm -rf "$homeLibPref/com.Adobe.Adobe Media Encoder.8.0.plist"
-rm -rf "$homeLibPref/com.Adobe.Adobe Media Encoder.9.0.plist"
+rm -rf "$homeLibPref/com.Adobe.Adobe Media Encoder".*.plist
 rm -rf "$homeLibPref/Adobe/Adobe Media Encoder"
 
 
@@ -159,8 +116,7 @@ echo "PL"
 rm -rf "$homeLibAppSup/Adobe/Prelude"
 rm -rf "$homeLibPref/Adobe/Prelude"
 rm -rf "$homeLibPref/com.adobe.Prelude.plist"
-rm -rf "$homeLibPref/com.Adobe.Prelude.3.0.plist"
-rm -rf "$homeLibPref/com.Adobe.Prelude.4.0.plist"
+rm -rf "$homeLibPref/com.Adobe.Prelude".*.plist
 
 
 
@@ -168,8 +124,7 @@ rm -rf "$homeLibPref/com.Adobe.Prelude.4.0.plist"
 echo "SG"
 rm -rf "$homeLibAppSup/Adobe/SpeedGrade"
 rm -rf "$homeLibPref/Adobe/SpeedGrade"
-rm -rf "$homeLibPref/com.Adobe.SpeedGrade.8.0.plist"
-rm -rf "$homeLibPref/com.Adobe.SpeedGrade.9.0.plist"
+rm -rf "$homeLibPref/com.Adobe.SpeedGrade".*.plist
 rm -rf "$homeLibPref/adobe.SpeedGrade.plist"
 
 
@@ -177,64 +132,36 @@ rm -rf "$homeLibPref/adobe.SpeedGrade.plist"
 #audition
 echo "AU"
 rm -rf "$homeLibPref/Adobe/Audition"
-rm -rf "$homeLibPref/com.Adobe.Audition.7.0.plist"
-rm -rf "$homeLibPref/com.Adobe.Audition.8.0.plist"
+rm -rf "$homeLibPref/com.Adobe.Audition".*.plist
 
 
 
 echo "===Web==="
 #animate
 echo "AN"
-rm -rf "$homeLibAppSup/Adobe/Animate CC 2015"
+rm -rf "$homeLibAppSup/Adobe/Animate "*
 rm -rf "$homeLibPref/Adobe/Animate"
-rm -rf "$homeLibPref/com.adobe.Adobe Animate CC 2015.application.plist"
+rm -rf "$homeLibPref/com.adobe.Adobe Animate "*".application.plist"
 
 #flash
 echo "FL"
 rm -rf "/Library/Application Support/Macromedia/FlashAuthor.cfg"
-rm -rf "$homeLibAppSup/Adobe/Flash CS6"
-rm -rf "$homeLibAppSup/Adobe/Flash CC"
-rm -rf "$homeLibAppSup/Adobe/Flash CC 2014"
-rm -rf "$homeLibAppSup/Adobe/Flash CC 2015"
-rm -rf "$homeLibPref/Flash CS6 Preferences"
+rm -rf "$homeLibAppSup/Adobe/Flash "*
+rm -rf "$homeLibPref/Flash "*" Preferences"
 rm -rf "$homeLibPref/Flash 12 MRU"
 rm -rf "$homeLibPref/Adobe/Flash"
 rm -rf "$homeLibPref/com.adobe.flash.plist"
-rm -rf "$homeLibPref/com.adobe.Adobe Flash CC.application.plist"
-rm -rf "$homeLibPref/com.adobe.Adobe Flash CC 2014.application.plist"
-rm -rf "$homeLibPref/com.adobe.Adobe Flash CC 2015.application.plist"
+rm -rf "$homeLibPref/com.adobe.Adobe Flash "*".application.plist"
 
 
 
 #dreamweaver
 echo "DW"
-rm -rf "$homeLibAppSup/Adobe/Dreamweaver CS6"
-rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC"
-rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC 2014"
-rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC 2014.1"
-rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC 2015"
-rm -rf "$homeLibAppSup/Adobe/Dreamweaver CC 2015 Backups"
-rm -rf "$homeLibAppSup/Adobe/Common/12.0"
-rm -rf "$homeLibAppSup/Adobe/Common/13.0"
-rm -rf "$homeLibAppSup/Adobe/Common/14.0"
-rm -rf "$homeLibAppSup/Adobe/Common/15.0"
-rm -rf "$homeLibAppSup/Adobe/Common/16.0"
-rm -rf "$homeLibPref/Adobe Dreamweaver CS6 Prefs"
-rm -rf "$homeLibPref/Adobe Dreamweaver CC Prefs"
-rm -rf "$homeLibPref/Adobe Dreamweaver CC 2014 Prefs"
-rm -rf "$homeLibPref/Adobe Dreamweaver CC 2014.1 Prefs"
-rm -rf "$homeLibPref/Adobe Dreamweaver CC 2015 Prefs"
+rm -rf "$homeLibAppSup/Adobe/Dreamweaver "*
+rm -rf "$homeLibAppSup/Adobe/Common/"*
+rm -f  "$homeLibPref/Adobe Dreamweaver CC "*" Prefs"
 rm -rf "$homeLibPref/Adobe/Dreamweaver"
-rm -rf "$homeLibPref/com.adobe.dreamweaver-12.0.plist"
-rm -rf "$homeLibPref/com.adobe.dreamweaver-12.1.plist"
-rm -rf "$homeLibPref/com.adobe.dreamweaver-12.2.plist"
-rm -rf "$homeLibPref/com.adobe.dreamweaver-13.0.plist"
-rm -rf "$homeLibPref/com.adobe.dreamweaver-13.1.plist"
-rm -rf "$homeLibPref/com.adobe.dreamweaver-13.2.plist"
-rm -rf "$homeLibPref/com.adobe.dreamweaver-14.0.plist"
-rm -rf "$homeLibPref/com.adobe.dreamweaver-15.0.plist"
-rm -rf "$homeLibPref/com.adobe.dreamweaver-15.1.plist"
-rm -rf "$homeLibPref/com.adobe.dreamweaver-16.0.plist"
+rm -f  "$homeLibPref/com.adobe.dreamweaver-"*.plist
 
 
 
@@ -243,8 +170,7 @@ echo "MU"
 rm -rf "$homeLibPref/Adobe/Adobe Muse CC"
 rm -rf "$homeLibPref/Adobe/Adobe Muse CC Library"
 rm -rf "$homeLibPref/Adobe/Adobe Muse CC Libraries"
-rm -rf "$homeLibPref/com.adobe.AdobeMuseCC.2014.0"
-rm -rf "$homeLibPref/com.adobe.AdobeMuseCC.2015.0"
+rm -rf "$homeLibPref/com.adobe.AdobeMuseCC."*
 rm -rf "$homeLibPref/com.adobe.Muse.application.plist"
 rm -rf "$homeLibPref/AdobeMuse"
 rm -rf "$homeLibPref/AdobeMuse.plist"
@@ -269,8 +195,7 @@ rm -rf "$homeLibAppSup/Adobe/Adobe PDF/Settings"
 echo "LR"
 rm -rf "$homeLibAppSup/Adobe/Lightroom"
 rm -rf "$homeLibPref/Adobe/Lightroom"
-rm -rf "$homeLibPref/com.adobe.Lightroom5.plist"
-rm -rf "$homeLibPref/com.adobe.Lightroom6.plist"
+rm -rf "$homeLibPref/com.adobe.Lightroom"*.plist
 rm -rf "$HOME/Pictures/Lightroom"
 
 
