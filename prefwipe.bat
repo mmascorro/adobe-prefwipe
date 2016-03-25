@@ -5,10 +5,7 @@ echo ===Design===
 :: photoshop
 echo PS
 rd /s /q "%appData%\Adobe\Photoshop"
-rd /s /q "%appData%\Adobe\Adobe Photoshop CS6"
-rd /s /q "%appData%\Adobe\Adobe Photoshop CC"
-rd /s /q "%appData%\Adobe\Adobe Photoshop CC 2014"
-rd /s /q "%appData%\Adobe\Adobe Photoshop CC 2015"
+for /d %%G in ("%appData%\Adobe\Adobe Photoshop *") do rd /s /q "%%~G"
 
 
 
@@ -21,12 +18,9 @@ rd /s /q "%localAppData%\Adobe\CameraRaw"
 
 :: illustrator
 echo AI
-rd /s /q "%appData%\Adobe\Adobe Illustrator CS6 Settings"
 rd /s /q "%appData%\Adobe\Adobe Illustrator"
-rd /s /q "%appData%\Adobe\Adobe Illustrator 17 Settings"
-rd /s /q "%appData%\Adobe\Adobe Illustrator 18 Settings"
-rd /s /q "%appData%\Adobe\Adobe Illustrator 19 Settings"
-rd /s /q "%appData%\Adobe\Adobe Illustrator Library 18 Settings"
+for /d %%G in ("%appData%\Adobe\Adobe Illustrator * Settings") do rd /s /q "%%~G"
+for /d %%G in ("%appData%\Adobe\Adobe Illustrator Library * Settings") do rd /s /q "%%~G"
 rd /s /q "%appData%\Adobe\Save For Web AI"
 
 
@@ -40,9 +34,7 @@ rd /s /q "%localAppData%\Adobe\InDesign"
 
 :: bridge
 echo BR
-rd /s /q "%appData%\Adobe\Bridge"
-rd /s /q "%appData%\Adobe\Bridge CS6"
-rd /s /q "%appData%\Adobe\Bridge CC"
+for /d %%G in ("%appData%\Adobe\Bridge*") do rd /s /q "%%~G"
 reg delete "HKCU\Software\Adobe\Bridge CS6" /f
 reg delete "HKCU\Software\Adobe\Bridge CC" /f
 
@@ -53,8 +45,7 @@ echo ===E-Learning===
 :: captivate
 echo CP
 rd /s /q "%appData%\Adobe\Captivate"
-rd /s /q "%localAppData%\Adobe\Captivate 8.0"
-rd /s /q "%localAppData%\Adobe\Captivate 9.0"
+for /d %%G in ("%localAppData%\Adobe\Captivate *") do rd /s /q "%%~G"
 rd /s /q "%USERPROFILE%\My Documents\Adobe Captivate Cached Projects"
 rd /s /q "%USERPROFILE%\Documents\Adobe Captivate Cached Projects"
 rd /s /q "%USERPROFILE%\Documents\My Adobe Captivate Projects"
@@ -130,10 +121,7 @@ reg delete "HKCU\Software\Adobe\Animate 15.1" /f
 :: flash
 echo FL
 del "C:\Windows\system32\Macromed\Flash\FlashAuthor.cfg"
-rd /s /q "%localAppData%\Adobe\Flash CS6"
-rd /s /q "%localAppData%\Adobe\Flash CC"
-rd /s /q "%localAppData%\Adobe\Flash CC 2014"
-rd /s /q "%localAppData%\Adobe\Flash CC 2015"
+for /d %%G in ("%localAppData%\Adobe\Flash*") do rd /s /q "%%~G"
 rd /s /q "%appData%\Adobe\Flash"
 reg delete "HKCU\Software\Adobe\Flash 12" /f
 reg delete "HKCU\Software\Adobe\Flash 13.0" /f
@@ -144,19 +132,8 @@ reg delete "HKCU\Software\Adobe\Flash 15.0" /f
 
 :: dreamweaver
 echo DW
-rd /s /q "%appData%\Adobe\Dreamweaver"
-rd /s /q "%appData%\Adobe\Dreamweaver CS6"
-rd /s /q "%appData%\Adobe\Dreamweaver CC"
-rd /s /q "%appData%\Adobe\Dreamweaver CC 2014"
-rd /s /q "%appData%\Adobe\Dreamweaver CC 2014.1"
-rd /s /q "%appData%\Adobe\Dreamweaver CC 2014.1 Backups"
-rd /s /q "%appData%\Adobe\Dreamweaver CC 2015"
-rd /s /q "%appData%\Adobe\Dreamweaver CC 2015 Backups"
-rd /s /q "%appData%\Adobe\Common\12.0"
-rd /s /q "%appData%\Adobe\Common\13.0"
-rd /s /q "%appData%\Adobe\Common\14.0"
-rd /s /q "%appData%\Adobe\Common\15.0"
-rd /s /q "%appData%\Adobe\Common\16.0"
+for /d %%G in ("%appData%\Adobe\Dreamweaver*") do rd /s /q "%%~G"
+for /d %%G in ("%appData%\Adobe\Common\*") do rd /s /q "%%~G"
 reg delete "HKCU\Software\Adobe\Dreamweaver CS6" /f
 reg delete "HKCU\Software\Adobe\Dreamweaver CC" /f
 reg delete "HKCU\Software\Adobe\Dreamweaver CC 2014" /f
@@ -168,8 +145,7 @@ reg delete "HKCU\Software\Adobe\Common" /f
 
 :: muse
 echo MU
-rd /s /q "%appData%\com.adobe.AdobeMuseCC.2014.0"
-rd /s /q "%appData%\com.adobe.AdobeMuseCC.2015.0"
+for /d %%G in ("%appData%\com.adobe.AdobeMuseCC.*") do rd /s /q "%%~G"
 rd /s /q "%appData%\Adobe\Adobe Muse CC"
 rd /s /q "%appData%\Adobe\Adobe Muse CC Library"
 rd /s /q "%appData%\Adobe\Adobe Muse CC Libraries"
@@ -239,9 +215,7 @@ reg delete "HKCU\Software\Adobe\RoboHelp" /f
 :: presenter
 echo PN
 rd /s /q "%localAppData%\Adobe\Adobe Presenter"
-rd /s /q "%localAppData%\Adobe\Presenter 9.0"
-rd /s /q "%localAppData%\Adobe\Presenter 10.0"
-rd /s /q "%localAppData%\Adobe\Presenter Video Creator 8.0"
-rd /s /q "%localAppData%\Adobe\Presenter Video Creator 9.0"
-rd /s /q "%localAppData%\Adobe\Presenter Video Express 10.0"
+for /d %%G in ("%localAppData%\Adobe\Presenter*") do rd /s /q "%%~G"
+for /d %%G in ("%localAppData%\Adobe\Presenter Video Creator*") do rd /s /q "%%~G"
+for /d %%G in ("%localAppData%\Adobe\Presenter Video Express*") do rd /s /q "%%~G"
 reg delete "HKCU\Software\Adobe\Adobe Presenter" /f
