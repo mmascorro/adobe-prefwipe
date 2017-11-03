@@ -52,6 +52,7 @@ echo "BR"
 rm -rf "$homeLibAppSup/Adobe/Bridge "*
 rm -rf "$homeLibPref/Adobe/Bridge"
 rm -rf "$homeLibPref/com.adobe.bridge"*.plist
+rm -rf "$homeLibCaches/Adobe/Bridge CC"*
 
 
 
@@ -63,15 +64,19 @@ rm -rf "$HOME/Documents/Adobe Captivate Cached Projects"
 rm -rf "$HOME/Documents/My Adobe Captivate Projects"
 rm -rf "$homeLibPref/Adobe Captivate "*
 rm -rf "$homeLibPref/com.adobe.Captivate.plist"
+rm -rf "$homeLibAppSup/Adobe/Access Adobe Resource"*
+rm -rf "$homeLibPref/Adobe HeadLessCaptivate"*
+rm -rf "$homeLibPref/CaptivatePreviewLoader"*
 echo "--Cap 8 AIR apps"
 rm -rf "$homeLibPref/AdobeCaptivateReviewer8"
 rm -rf "$homeLibPref/Adobe Captivate App Packager"
 rm -rf "$homeLibPref/com.adobe.captivate8AppPackager"
 rm -rf "$homeLibPref/QuizResultsAnalyzer8"
+rm -rf "$homeLibPref/AdobeCaptivateReviewer8.plist"
 echo "--Cap 9 AIR apps"
 rm -rf "$homeLibPref/AdobeCaptivateReviewer9"
 rm -rf "$homeLibPref/QuizResultsAnalyzer9"
-
+rm -rf "$homeLibPref/AdobeCaptivateReviewer9.plist"
 
 echo "===Video==="
 
@@ -85,6 +90,7 @@ rm -rf "$homeLibAppSup/Adobe/Premiere Pro"
 rm -rf "$homeLibPref/Adobe/Premiere Pro"
 rm -rf "$homeLibPref/com.adobe.AdobePremierePro.plist"
 rm -rf "$homeLibPref/com.Adobe.Premiere Pro".*.plist
+rm -rf "$homeLibPref/com.adobe.PremierePro".*.plist
 
 
 
@@ -101,6 +107,7 @@ rm -f "$homeLibPref/com.Adobe.After Effects".*.plist
 #media encoder
 echo "AME"
 rm -rf "$homeLibPref/com.Adobe.Adobe Media Encoder".*.plist
+rm -rf "$homeLibPref/com.adobe.ame.application"*.plist
 rm -rf "$homeLibPref/Adobe/Adobe Media Encoder"
 
 
@@ -117,16 +124,6 @@ rm -rf "$homeLibAppSup/Adobe/Prelude"
 rm -rf "$homeLibPref/Adobe/Prelude"
 rm -rf "$homeLibPref/com.adobe.Prelude.plist"
 rm -rf "$homeLibPref/com.Adobe.Prelude".*.plist
-
-
-
-#speedgrade
-echo "SG"
-rm -rf "$homeLibAppSup/Adobe/SpeedGrade"
-rm -rf "$homeLibPref/Adobe/SpeedGrade"
-rm -rf "$homeLibPref/com.Adobe.SpeedGrade".*.plist
-rm -rf "$homeLibPref/adobe.SpeedGrade.plist"
-
 
 
 #audition
@@ -162,6 +159,7 @@ rm -rf "$homeLibAppSup/Adobe/Common/"*
 rm -f  "$homeLibPref/Adobe Dreamweaver CC "*" Prefs"
 rm -rf "$homeLibPref/Adobe/Dreamweaver"
 rm -f  "$homeLibPref/com.adobe.dreamweaver-"*.plist
+rm -f  "$homeLibPref/com.adobe.dreamweaverhelper-"*.plist
 
 
 
@@ -185,6 +183,18 @@ rm -rf "$homeLibPref/Adobe/Acrobat"
 rm -rf "$homeLibPref/com.adobe.Acrobat.Pro.plist"
 rm -rf "$homeLibPref/com.adobe.Acrobat.Pro_x86_9.0.plist"
 
+
+#xd
+echo "XD"
+rm -rf "$homeLibAppSup/Adobe-XD-"*
+rm -rf "$homeLibAppSup/Adobe XD"*
+rm -rf "$homeLibPref/com.adobe.xd.plist"
+
+
+#dimension
+echo "DN"
+rm -rf "$homeLibAppSup/Adobe Dimension CC"
+rm -rf "$homeLibPref/com.adobe.dimension.plist"
 
 #pdf presets
 echo "--PDF Presets"
