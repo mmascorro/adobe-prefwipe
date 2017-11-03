@@ -98,12 +98,6 @@ rd /s /q "%appData%\Adobe\Prelude"
 
 
 
-:: speedgrade
-echo SG
-rd /s /q "%appData%\Adobe\SpeedGrade"
-
-
-
 :: audition
 echo AU
 rd /s /q "%appData%\Adobe\Audition"
