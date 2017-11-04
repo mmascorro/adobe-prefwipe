@@ -46,6 +46,8 @@ echo ===E-Learning===
 echo CP
 rd /s /q "%appData%\Adobe\Captivate"
 for /d %%G in ("%localAppData%\Adobe\Captivate *") do rd /s /q "%%~G"
+for /d %%G in ("%localAppData%\Adobe\HeadLessCaptivate *") do rd /s /q "%%~G"
+for /d %%G in ("%localAppData%\Adobe\Access Adobe Resource *") do rd /s /q "%%~G"
 rd /s /q "%USERPROFILE%\My Documents\Adobe Captivate Cached Projects"
 rd /s /q "%USERPROFILE%\Documents\Adobe Captivate Cached Projects"
 rd /s /q "%USERPROFILE%\Documents\My Adobe Captivate Projects"
