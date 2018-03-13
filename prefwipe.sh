@@ -202,12 +202,17 @@ rm -rf "$homeLibAppSup/Adobe/Adobe PDF/Settings"
 
 
 #lightroom
-echo "LR"
+echo "LR Classic"
 rm -rf "$homeLibAppSup/Adobe/Lightroom"
 rm -rf "$homeLibPref/Adobe/Lightroom"
 rm -rf "$homeLibPref/com.adobe.Lightroom"*.plist
 rm -rf "$HOME/Pictures/Lightroom"
 
+echo "LR CC"
+rm -rf "$homeLibAppSup/Adobe/Lightroom CC"
+rm -rf "$homeLibAppSup/Adobe/Lightroom CC Helper"
+rm -rf "$homeLibPref/com.adobe.lightroomCC"*.plist
+rm -rf "$HOME/Pictures/Lightroom Library.lrlibrary"
 
 
 #incopy

@@ -111,6 +111,9 @@ echo ===Web===
 :: animate
 echo AN
 rd /s /q "%localAppData%\Adobe\Animate CC 2015"
+rd /s /q "%localAppData%\Adobe\Animate CC 2015.2"
+rd /s /q "%localAppData%\Adobe\Animate CC 2017"
+rd /s /q "%localAppData%\Adobe\Animate CC 2018"
 rd /s /q "%appData%\Adobe\Animate"
 reg delete "HKCU\Software\Adobe\Animate 15.1" /f
 
@@ -173,10 +176,16 @@ reg delete "HKCU\Software\Adobe\Designer" /f
 
 
 :: lightroom
-echo LR
+echo LR Classic
 rd /s /q "%localAppData%\Adobe\Lightroom"
 rd /s /q "%appData%\Adobe\Lightroom"
 rd /s /q "%USERPROFILE%\Pictures\Lightroom"
+
+echo LR CC
+rd /s /q "%appData%\Adobe\Lightroom CC"
+rd /s /q "%appData%\Adobe\Lightroom CC Helper"
+rd /s /q "%localAppData%\Adobe\Lightroom CC"
+rd /s /q "%localAppData%\Adobe\Lightroom CC Helper"
 
 
 
