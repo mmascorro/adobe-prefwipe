@@ -163,17 +163,6 @@ rm -f  "$homeLibPref/com.adobe.dreamweaverhelper-"*.plist
 
 
 
-#muse
-echo "MU"
-rm -rf "$homeLibPref/Adobe/Adobe Muse CC"
-rm -rf "$homeLibPref/Adobe/Adobe Muse CC Library"
-rm -rf "$homeLibPref/Adobe/Adobe Muse CC Libraries"
-rm -rf "$homeLibPref/com.adobe.AdobeMuseCC."*
-rm -rf "$homeLibPref/com.adobe.Muse.application.plist"
-rm -rf "$homeLibPref/AdobeMuse"
-rm -rf "$homeLibPref/AdobeMuse.plist"
-
-
 echo "===Other==="
 
 #acrobat

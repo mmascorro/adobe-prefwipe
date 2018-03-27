@@ -142,15 +142,6 @@ reg delete "HKCU\Software\Adobe\Common" /f
 
 
 
-:: muse
-echo MU
-for /d %%G in ("%appData%\com.adobe.AdobeMuseCC.*") do rd /s /q "%%~G"
-rd /s /q "%appData%\Adobe\Adobe Muse CC"
-rd /s /q "%appData%\Adobe\Adobe Muse CC Library"
-rd /s /q "%appData%\Adobe\Adobe Muse CC Libraries"
-
-
-
 echo ===Other===
 
 :: acrobat
