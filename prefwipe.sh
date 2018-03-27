@@ -168,6 +168,8 @@ echo "===Other==="
 #acrobat
 echo "Acrobat"
 rm -rf "$homeLibAppSup/Adobe/Acrobat"
+rm -rf "$homeLibAppSup/Adobe/AcroCef"
+rm -rf "$homeLibAppSup/Adobe/AcroExt"
 rm -rf "$homeLibPref/Adobe/Acrobat"
 rm -rf "$homeLibPref/com.adobe.Acrobat.Pro.plist"
 rm -rf "$homeLibPref/com.adobe.Acrobat.Pro_x86_9.0.plist"
@@ -176,7 +178,7 @@ rm -rf "$homeLibPref/com.adobe.Acrobat.Pro_x86_9.0.plist"
 #xd
 echo "XD"
 rm -rf "$homeLibAppSup/Adobe-XD-"*
-rm -rf "$homeLibAppSup/Adobe XD"*
+rm -rf "$homeLibAppSup/Adobe/Adobe XD"*
 rm -rf "$homeLibPref/com.adobe.xd.plist"
 
 
