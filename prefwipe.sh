@@ -62,21 +62,19 @@ echo "===E-Learning==="
 echo "CP"
 rm -rf "$HOME/Documents/Adobe Captivate Cached Projects"
 rm -rf "$HOME/Documents/My Adobe Captivate Projects"
+rm -rf "$HOME/Documents/CPDeviceCapture"
 rm -rf "$homeLibPref/Adobe Captivate "*
 rm -rf "$homeLibPref/com.adobe.Captivate.plist"
 rm -rf "$homeLibAppSup/Adobe/Access Adobe Resource"*
 rm -rf "$homeLibPref/Adobe HeadLessCaptivate"*
 rm -rf "$homeLibPref/CaptivatePreviewLoader"*
-echo "--Cap 8 AIR apps"
-rm -rf "$homeLibPref/AdobeCaptivateReviewer8"
+#CP air apps
 rm -rf "$homeLibPref/Adobe Captivate App Packager"
 rm -rf "$homeLibPref/com.adobe.captivate8AppPackager"
-rm -rf "$homeLibPref/QuizResultsAnalyzer8"
-rm -rf "$homeLibPref/AdobeCaptivateReviewer8.plist"
-echo "--Cap 9 AIR apps"
-rm -rf "$homeLibPref/AdobeCaptivateReviewer9"
-rm -rf "$homeLibPref/QuizResultsAnalyzer9"
-rm -rf "$homeLibPref/AdobeCaptivateReviewer9.plist"
+rm -rf "$homeLibPref/AdobeCaptivateReviewer"*
+rm -rf "$homeLibPref/QuizResultsAnalyzer"*
+rm -rf "$homeLibAppSup/AdobeCaptivateReviewer"*
+
 
 echo "===Video==="
 
