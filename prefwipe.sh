@@ -40,10 +40,6 @@ rm -rf "$homeLibCaches/Adobe InDesign"
 rm -rf "$homeLibPref/Adobe InDesign"
 rm -rf "$homeLibPref/Adobe/Adobe InDesign"
 rm -rf "$homeLibPref/com.adobe.InDesign.plist"
-echo "-DPS"
-rm -rf "$homeLibAppSup/com.adobe.dmp.contentviewer"
-rm -rf "$homeLibPref/com.adobe.dmp.contentviewer"
-rm -rf "$homeLibPref/StageManager.BD092818F67280F4B42B04877600987F0111B594.1"
 
 
 
@@ -95,10 +91,9 @@ rm -rf "$homeLibPref/com.adobe.PremierePro".*.plist
 #after effects
 echo "AE"
 rm -rf "$homeLibPref/Adobe/After Effects"
-rm -rf "$homeLibCaches/Adobe/After Effects"
 rm -rf "$homeLibPref/com.adobe.AfterEffects.plist"
-rm -f "$homeLibPref/com.Adobe.After Effects".*.plist
-
+rm -ff "$homeLibPref/com.Adobe.After Effects".*.plist
+rm -rf "$homeLibCaches/Adobe/After Effects"
 
 
 
@@ -122,12 +117,15 @@ rm -rf "$homeLibAppSup/Adobe/Prelude"
 rm -rf "$homeLibPref/Adobe/Prelude"
 rm -rf "$homeLibPref/com.adobe.Prelude.plist"
 rm -rf "$homeLibPref/com.Adobe.Prelude".*.plist
+rm -rf "$homeLibPref/com.adobe.Prelude".*.plist
+
 
 
 #audition
 echo "AU"
 rm -rf "$homeLibPref/Adobe/Audition"
 rm -rf "$homeLibPref/com.Adobe.Audition".*.plist
+rm -rf "$homeLibPref/com.adobe.Audition.plist"
 
 
 
@@ -137,7 +135,7 @@ echo "AN"
 rm -rf "$homeLibAppSup/Adobe/Animate "*
 rm -rf "$homeLibPref/Adobe/Animate"
 rm -rf "$homeLibPref/com.adobe.Adobe Animate "*".application.plist"
-
+rm -rf "$homeLibPref/com.adobe.Adobe-Animate-CC-"*".application.plist"
 #flash
 echo "FL"
 rm -rf "/Library/Application Support/Macromedia/FlashAuthor.cfg"
@@ -180,10 +178,20 @@ rm -rf "$homeLibAppSup/Adobe/Adobe XD"*
 rm -rf "$homeLibPref/com.adobe.xd.plist"
 
 
+
 #dimension
 echo "DN"
 rm -rf "$homeLibAppSup/Adobe Dimension CC"
 rm -rf "$homeLibPref/com.adobe.dimension.plist"
+
+
+
+#character animator
+echo "Ch"
+rm -rf "$homeLibPref/Adobe/Character Animator"
+rm -rf "$homeLibPref/com.adobe.Character-Animator.application.plist"
+rm -rf "$homeLibPref/com.Adobe.Character Animator."*".plist"
+
 
 #pdf presets
 echo "--PDF Presets"
@@ -209,3 +217,11 @@ echo "IC"
 rm -rf "$homeLibPref/Adobe/Adobe InCopy"
 rm -rf "$homeLibPref/Adobe InCopy"
 rm -rf "$homeLibPref/com.adobe.InCopy.plist"
+
+
+#premier rush
+echo "Ru"
+rm -rf "$homeLibAppSup/Adobe/Premiere Rush"
+rm -rf "$homeLibPref/Adobe/Premiere Rush"
+rm -rf "$homeLibPref/com.Adobe.Premiere Rush."*".plist"
+rm -rf "$homeLibPref/com.adobe.PremiereRush."*".plist"
