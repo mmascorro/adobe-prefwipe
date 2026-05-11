@@ -111,16 +111,6 @@ rm -rf "$homeLibAppSup/Adobe/Common/Media Cache Files"
 
 
 
-#prelude
-echo "PL"
-rm -rf "$homeLibAppSup/Adobe/Prelude"
-rm -rf "$homeLibPref/Adobe/Prelude"
-rm -rf "$homeLibPref/com.adobe.Prelude.plist"
-rm -rf "$homeLibPref/com.Adobe.Prelude".*.plist
-rm -rf "$homeLibPref/com.adobe.Prelude".*.plist
-
-
-
 #audition
 echo "AU"
 rm -rf "$homeLibPref/Adobe/Audition"
@@ -136,15 +126,6 @@ rm -rf "$homeLibAppSup/Adobe/Animate "*
 rm -rf "$homeLibPref/Adobe/Animate"
 rm -rf "$homeLibPref/com.adobe.Adobe Animate "*".application.plist"
 rm -rf "$homeLibPref/com.adobe.Adobe-Animate-CC-"*".application.plist"
-#flash
-echo "FL"
-rm -rf "/Library/Application Support/Macromedia/FlashAuthor.cfg"
-rm -rf "$homeLibAppSup/Adobe/Flash "*
-rm -rf "$homeLibPref/Flash "*" Preferences"
-rm -rf "$homeLibPref/Flash 12 MRU"
-rm -rf "$homeLibPref/Adobe/Flash"
-rm -rf "$homeLibPref/com.adobe.flash.plist"
-rm -rf "$homeLibPref/com.adobe.Adobe Flash "*".application.plist"
 
 
 
@@ -179,13 +160,6 @@ rm -rf "$homeLibPref/com.adobe.xd.plist"
 
 
 
-#dimension
-echo "DN"
-rm -rf "$homeLibAppSup/Adobe Dimension CC"
-rm -rf "$homeLibPref/com.adobe.dimension.plist"
-
-
-
 #character animator
 echo "Ch"
 rm -rf "$homeLibPref/Adobe/Character Animator"
@@ -217,11 +191,3 @@ echo "IC"
 rm -rf "$homeLibPref/Adobe/Adobe InCopy"
 rm -rf "$homeLibPref/Adobe InCopy"
 rm -rf "$homeLibPref/com.adobe.InCopy.plist"
-
-
-#premier rush
-echo "Ru"
-rm -rf "$homeLibAppSup/Adobe/Premiere Rush"
-rm -rf "$homeLibPref/Adobe/Premiere Rush"
-rm -rf "$homeLibPref/com.Adobe.Premiere Rush."*".plist"
-rm -rf "$homeLibPref/com.adobe.PremiereRush."*".plist"

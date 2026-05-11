@@ -90,12 +90,6 @@ rd /s /q "%appData%\Adobe\Common\Media Cache Files"
 
 
 
-:: prelude
-echo PL
-rd /s /q "%appData%\Adobe\Prelude"
-
-
-
 :: audition
 echo AU
 rd /s /q "%appData%\Adobe\Audition"
@@ -112,16 +106,6 @@ rd /s /q "%localAppData%\Adobe\Animate CC 2017"
 rd /s /q "%localAppData%\Adobe\Animate CC 2018"
 rd /s /q "%appData%\Adobe\Animate"
 reg delete "HKCU\Software\Adobe\Animate 15.1" /f
-
-:: flash
-echo FL
-del "C:\Windows\system32\Macromed\Flash\FlashAuthor.cfg"
-for /d %%G in ("%localAppData%\Adobe\Flash*") do rd /s /q "%%~G"
-rd /s /q "%appData%\Adobe\Flash"
-reg delete "HKCU\Software\Adobe\Flash 12" /f
-reg delete "HKCU\Software\Adobe\Flash 13.0" /f
-reg delete "HKCU\Software\Adobe\Flash 14.0" /f
-reg delete "HKCU\Software\Adobe\Flash 15.0" /f
 
 
 
@@ -203,11 +187,3 @@ rd /s /q "%appData%\Adobe\RoboHTML"
 reg delete "HKCU\Software\Adobe\RoboHelp" /f
 
 
-
-:: presenter
-echo PN
-rd /s /q "%localAppData%\Adobe\Adobe Presenter"
-for /d %%G in ("%localAppData%\Adobe\Presenter*") do rd /s /q "%%~G"
-for /d %%G in ("%localAppData%\Adobe\Presenter Video Creator*") do rd /s /q "%%~G"
-for /d %%G in ("%localAppData%\Adobe\Presenter Video Express*") do rd /s /q "%%~G"
-reg delete "HKCU\Software\Adobe\Adobe Presenter" /f
